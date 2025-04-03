@@ -33,3 +33,6 @@ body {
   padding-right: 2vh;
   cursor: pointer;
 }
+.counter-button {
+  cursor: grab;
+}
