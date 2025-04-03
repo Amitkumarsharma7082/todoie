@@ -28,3 +28,8 @@ body {
 .todo-item-text {
   margin-left: 5px;
 }
+.todo-edit-button {
+  width: 10px;
+  padding-right: 2vh;
+  cursor: pointer;
+}

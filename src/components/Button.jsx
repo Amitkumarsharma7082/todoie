@@ -1,7 +1,7 @@
 import React from "react";
 
-const Button = () => {
-  return <button className="todo-button">Add Todo</button>;
+const Button = (props) => {
+  return <button className="todo-button">{props.text}</button>;
 };
 
 export default Button;

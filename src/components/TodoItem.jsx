@@ -1,12 +1,18 @@
 import React from "react";
 
-const TodoItem = () => {
+// function MyHeader(props) {
+//   return <h1>{props.title}</h1>;
+// }
+// <MyHeader title="This is my header" />;
+
+const TodoItem = (props) => {
   return (
     <li className="todo-item">
       <span>
-        <input type="checkbox" />
-        <span className="todo-item-text">Eat</span>
+        {props.isCompleted ? <></> : <input type="checkbox" />}
+        <span className="todo-item-text">{props.text}</span>
       </span>
+      {/* <button className="todo-edit-button">...</button> */}
       <p>...</p>
     </li>
   );
